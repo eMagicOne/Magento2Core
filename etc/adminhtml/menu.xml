@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Emagicone
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * PHP version 7
+ *
+ * @category  Emagicone
+ * @package   Emagicone_Core
+ * @author    Khrystyna Viiatyk <khrystyna@kommy.net>
+ * @copyright 2019 eMagicOne.com. All Rights Reserved. (https://emagicone.com/)
+ * @license   https://emagicone.com/ eMagicOne Ltd. License
+ * @link      https://emagicone.com/
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Emagicone_Core::emagicone" title="eMagicOne" module="Emagicone_Core" sortOrder="50" dependsOnModule="Emagicone_Core" resource="Emagicone_Core::emagicone" />
+    </menu>
+</config>
