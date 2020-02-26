@@ -30,6 +30,6 @@ li#menu-emagicone-core-emagicone a:before {
     margin-left: 1em;
     height: 3.2rem;
 }
-li#menu-emagicone-core-emagicone li.item-seo.level-1 a:before {
+li#menu-emagicone-core-emagicone > div a:before {
     display: none;
 }
